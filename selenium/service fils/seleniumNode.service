@@ -1,0 +1,14 @@
+[Unit]
+Description=Selenium Node Handler
+
+[Service]
+Environment=PATH=/home/seleniumNode/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/home/seleniumNode/seleniumDrivers
+WorkingDirectory=/home/seleniumNode/
+ExecStartPre=/bin/sh -c "systemctl set-environment HOSTNAME=$(hostname)"
+ExecStart=/bin/java -jar /home/seleniumNode/selenium-server-4.1.2.jar node --host ${HOSTNAME}.uom.memphis.edu --publish-events tcp://iis-server.uom.memphis.edu:4442 --subscribe-events tcp://iis-server.uom.memphis.edu:4443
+User=seleniumNode
+PermissionsStartOnly=true
+Type=simple
+
+[Install]
+WantedBy=multi-user.target

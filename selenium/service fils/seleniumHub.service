@@ -1,0 +1,11 @@
+[Unit]
+Description=Selenium Node Handler
+
+[Service]
+ExecStart=/bin/java -jar /home/selenium/selenium-server-4.1.2.jar hub --publish-events tcp://iis-server.uom.memphis.edu:4442 --subscribe-events tcp://iis-server.uom.memphis.edu:4443
+User=selenium
+Type=simple
+
+[Install]
+WantedBy=multi-user.target
+
