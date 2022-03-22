@@ -1,0 +1,25 @@
+6U4ey logs:
+1647894153022: Launced TDF
+1647894153530: Submitted Informed concent
+1647894154327: Left instructions page
+1647894178275: Answered question 1
+1647894190126: Answered question 2
+1647894199748: Answered question 3
+1647894210629: Answered question 4
+1647894221394: Answered question 5
+1647894232460: Answered question 6
+1647894245757: Answered question 7
+1647894256300: Answered question 8
+1647894269706: Answered question 9
+1647894283588: Answered question 10
+1647894297379: Answered question 11
+1647894310420: Answered question 12
+1647894323573: Answered question 13
+1647894324471: Answered question 14
+1647894350004: Answered question 15
+
+Time to complete trial: 196982ms
+Time to load TDF: 508ms
+Completed 1 / 1
+
+Average time between trials: 1379.7142857142858
