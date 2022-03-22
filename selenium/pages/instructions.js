@@ -12,15 +12,9 @@ class InstructionsPage extends Page{
 
     async contInstructions(){
         await this.driver.wait(until.elementLocated(this.contButton));
-        await this.driver.findElement(this.contButton).click();
-
-        return Date.now();
-    }
-
-    async continueInformedConcent(){
-        await this.driver.wait(until.elementLocated(this.contButton));
-        console.log(`(${this.userName}) Continue button found. Clicking`);
-        await this.driver.findElement(this.contButton).click();
+        const contButton = this.driver.findElement(this.contButton);
+        await contButton.click();
+        await this.driver.wait(until.stalenessOf(contButton));
 
         return Date.now();
     }
