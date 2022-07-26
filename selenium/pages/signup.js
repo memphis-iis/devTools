@@ -13,6 +13,7 @@ class SignUpPage extends Page {
     }
 
     async logInUser(){
+        await this.driver.wait(until.elementLocated(this.signInBox), 10000);
         await this.driver.findElement(this.signInBox).sendKeys(this.userName + '@loadtesting.org');
         await this.driver.findElement(this.passwordBox).sendKeys(this.userName + "123456");
         await this.driver.findElement(this.password2Box).sendKeys(this.userName + "123456");

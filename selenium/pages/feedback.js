@@ -10,7 +10,7 @@ class FeedbackPage extends Page {
     }
 
     async setFeedback(){
-        await this.driver.wait(until.elementLocated(this.confirmFeedbackButton))
+        await this.driver.wait(until.elementLocated(this.confirmFeedbackButton), 5000)
         console.log(`(${this.userName}) Feedback Selection button found. Clicking`);
         await this.driver.findElement(this.confirmFeedbackButton).click();
         
