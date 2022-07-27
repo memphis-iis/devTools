@@ -1,10 +1,9 @@
-let SignUpPage = require('./pages/signup').SignUpPage;
-let InstructionsPage = require('./pages/instructions').InstructionsPage;
-let CardPage = require('./pages/card').CardPage;
-let Profile = require('./pages/profile').Profile;
-const numTrials = 15;
+const { SignUpPage } = require('./pages/signup');
+const { Profile } = require('./pages/profile');
+const { InstructionsPage } = require('./pages/instructions');
+const { CardPage } = require('./pages/card');
 
-async function test(driver, userName, url, log, times) {
+async function test(driver, userName, url, log, times, numTrials) {
     let signUpPage = new SignUpPage(driver, userName);
     let profile = new Profile(driver, userName);
     let instructionsPage = new InstructionsPage(driver, userName);
