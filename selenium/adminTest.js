@@ -65,7 +65,9 @@ async function test(driver, userName, url, log, times) {
     userData = await mongodb.queryDBOne('users', {username: userName.toUpperCase()});
     console.log(`${userName} is in teacher role? `, userData.roles[0] == 'teacher')
 
-    return {times, log, userId}
+    mongodb.closeConnection();
+
+    return {times, log}
 };
 
 module.exports = {

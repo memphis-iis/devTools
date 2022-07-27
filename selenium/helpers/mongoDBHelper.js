@@ -8,7 +8,15 @@ class MongoDBHelper {
     }
 
     async queryDBOne(collection, query){
-        return await this.client.db("MoFaCT").collection(collection).findOne(query);
+        return this.client.db("MoFaCT").collection(collection).findOne(query);
+    }
+
+    async queryDbMany(collection, query){
+        return await this.client.db("MoFaCT").collection(collection).find(query).fetch();
+    }
+
+    async closeConnection(){
+        await this.client.close();
     }
 }
 

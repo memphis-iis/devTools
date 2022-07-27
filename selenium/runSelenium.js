@@ -1,6 +1,5 @@
 const { Builder } = require('selenium-webdriver');
-const pgp = require('pg-promise')();
-//const firefox = require('selenium-webdriver/firefox');
+const firefox = require('selenium-webdriver/firefox');
 const chrome = require('selenium-webdriver/chrome');
 const localUrl = 'http://127.0.0.1:3000'//
 const testUrl = 'https://staging.optimallearning.org';
@@ -112,12 +111,9 @@ for(let i = 0; i < totalTests; i++){
 
     runSelenium().then(async (res) => {
         let userName = res.userName;
-        let userId = res.userId;
 
         numCompletedTests += 1;
         console.log(userName + " logs: \n" + log[userName])
-        console.log(`Time to complete trial: ${times[userName][times[userName].length - 1] - times[userName][0]}ms`)
-        console.log(`Time to load TDF: ${times[userName][1] - times[userName][0]}ms`);
         console.log(`Completed ${numCompletedTests} / ${totalTests}\n`);
     });
 }

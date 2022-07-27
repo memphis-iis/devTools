@@ -1,15 +1,15 @@
-let SignUpPage = require('./pages/signup').SignUpPage;
-let InstructionsPage = require('./pages/instructions').InstructionsPage;
-let FeedbackPage = require('./pages/feedback').FeedbackPage;
-let CardPage = require('./pages/card').CardPage;
-let Profile = require('./pages/profile').Profile;
+const { SignUpPage } = require('./pages/signup');
+const { Profile } = require('./pages/profile');
+const { InstructionsPage } = require('./pages/instructions');
+const { FeedbackPage } = require('./pages/feedback');
+const { CardPage } = require('./pages/card');
+const pgp = require('pg-promise')();
 const connectionString = 'postgres://mofacts:test101@localhost:65432';
 const db = pgp(connectionString);
 
-async function test(driver, userName, url, log, times, numTrials ) {
+async function test(driver, userName, url, log, times, numTrials) {
 
     //define all the pages used in the test
-    const callbackFunction = callback;
     const signUpPage = new SignUpPage(driver, userName);
     const profile = new Profile(driver, userName);
     const instructionsPage = new InstructionsPage(driver, userName);
@@ -56,10 +56,13 @@ async function test(driver, userName, url, log, times, numTrials ) {
         times[userName].push(curTime);
         log[userName] += `${curTime}: Answered question ${i + 1}\n`
     }
-    return {times, log, userId}
+    await callback(times, userName, userId);
+    return {times, log};
 };
 
-function callback(){
+async function callback(times, userName, userId){
+    console.log(`Time to complete trial: ${times[userName][times[userName].length - 1] - times[userName][0]}ms`)
+    console.log(`Time to load TDF: ${times[userName][1] - times[userName][0]}ms`);
     const query = 'SELECT * FROM HISTORY WHERE userId=$1 ORDER BY eventid asc';
     const history = await db.manyOrNone(query, userId);
     for(his of history){

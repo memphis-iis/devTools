@@ -8,6 +8,7 @@ class UserAdmin extends Page {
     userListFilterBox = By.id('filter');
     toggleAdminStatusButton = By.css("button[data-rolename='admin']");
     toggleTeacherStatusBotton = By.css("button[data-rolename='teacher']");
+    userAdminModal = By.id('userAdminModal');
     impersonateButton;
 
     constructor(driver, userName){
@@ -27,10 +28,15 @@ class UserAdmin extends Page {
         await this.driver.wait(until.elementLocated(this.toggleAdminStatusButton), 10000);
         await this.driver.findElement(this.toggleAdminStatusButton).click();
         
+        const timestamp = Date.now();
+
         await this.driver.wait(until.alertIsPresent());
         await this.driver.switchTo().alert().accept();
 
-        return Date.now();
+        await this.driver.wait(until.elementLocated(this.userAdminModal, 10000));
+        await this.driver.wait(until.elementIsNotVisible(this.driver.findElement(this.userAdminModal)));
+
+        return timestamp;
     }
 
     async toggleUserTeacherStatus(){
@@ -38,10 +44,15 @@ class UserAdmin extends Page {
         await this.driver.wait(until.elementLocated(this.toggleTeacherStatusBotton), 10000);
         await this.driver.findElement(this.toggleTeacherStatusBotton).click();
         
+        const timestamp = Date.now();
+
         await this.driver.wait(until.alertIsPresent());
         await this.driver.switchTo().alert().accept();
 
-        return Date.now();
+        await this.driver.wait(until.elementLocated(this.userAdminModal, 10000));
+        await this.driver.wait(until.elementIsNotVisible(this.driver.findElement(this.userAdminModal)));
+
+        return timestamp;
     }
 }
 
