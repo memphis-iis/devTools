@@ -5,6 +5,7 @@ class Profile extends Page {
     timeout;
     firstTdf = By.id('1');
     mengTdf = By.name('Chineseoptimfemaletest1');
+    userAdminButton = By.id('userAdminButton');
 
     constructor(driver, userName){
         super(driver, userName)
@@ -30,6 +31,14 @@ class Profile extends Page {
         await this.driver.wait(until.elementLocated(this.mengTdf), 10000);
         console.log(`(${this.userName}) Loading TDF: ${await this.driver.findElement(this.mengTdf).getAttribute("name")}`);
         await this.driver.findElement(this.mengTdf).click();
+
+        return Date.now();
+    }
+
+    async launchUserAdminPage(){
+        await this.driver.wait(until.elementLocated(this.userAdminButton), 10000);
+        console.log(`(${this.userName}) Loading user admin page`);
+        await this.driver.findElement(this.userAdminButton).click();
 
         return Date.now();
     }

@@ -4,7 +4,7 @@ let CardPage = require('./pages/card').CardPage;
 let Profile = require('./pages/profile').Profile;
 const numTrials = 15;
 
-async function basicTest(driver, userName, url, log, times) {
+async function test(driver, userName, url, log, times) {
     let signUpPage = new SignUpPage(driver, userName);
     let profile = new Profile(driver, userName);
     let instructionsPage = new InstructionsPage(driver, userName);
@@ -48,5 +48,5 @@ async function basicTest(driver, userName, url, log, times) {
 };
 
 module.exports = {
-    basicTest
+    test
 }
