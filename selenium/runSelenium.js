@@ -42,7 +42,7 @@ async function runSelenium() {
         console.log(err)
     }
     finally{
-        //await driver.quit();
+        await driver.quit();
         return {userName, userId};
     }
 };

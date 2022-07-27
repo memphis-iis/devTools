@@ -41,25 +41,29 @@ async function test(driver, userName, url, log, times) {
     times[userName].push(curTime);
     log[userName] += `${curTime}: added user ${userName} to admin group\n`
 
-    console.log(await mongodb.queryDBOne('users', {username: userName.toUpperCase()})['roles']);
+    let userData = await mongodb.queryDBOne('users', {username: userName.toUpperCase()});
+    console.log(`${userName} is in admin role? `, userData.roles[0] == 'admin')
 
     curTime = await userAdmin.toggleUserAdminStatus();
     times[userName].push(curTime);
     log[userName] += `${curTime}: removed user ${userName} from admin group\n`
 
-    console.log(await mongodb.queryDBOne('users', {username: userName.toUpperCase()})['roles']);
+    userData = await mongodb.queryDBOne('users', {username: userName.toUpperCase()});
+    console.log(`${userName} is in admin role? `, userData.roles[0] == 'admin')
 
-    // curTime = await userAdmin.toggleUserTeacherStatus();
-    // times[userName].push(curTime);
-    // log[userName] += `${curTime}: added user ${userName} to teacher group\n`
+    curTime = await userAdmin.toggleUserTeacherStatus();
+    times[userName].push(curTime);
+    log[userName] += `${curTime}: added user ${userName} to teacher group\n`
 
-    // console.log(await mongodb.queryDBOne('users', {username: userName}));
+    userData = await mongodb.queryDBOne('users', {username: userName.toUpperCase()});
+    console.log(`${userName} is in teacher role? `, userData.roles[0] == 'teacher')
 
-    // curTime = await userAdmin.toggleUserTeacherStatus();
-    // times[userName].push(curTime);
-    // log[userName] += `${curTime}: removed user ${userName} from teacher group\n`
+    curTime = await userAdmin.toggleUserTeacherStatus();
+    times[userName].push(curTime);
+    log[userName] += `${curTime}: removed user ${userName} from teacher group\n`
 
-    // console.log(await mongodb.queryDBOne('users', {username: userName}));
+    userData = await mongodb.queryDBOne('users', {username: userName.toUpperCase()});
+    console.log(`${userName} is in teacher role? `, userData.roles[0] == 'teacher')
 
     return {times, log, userId}
 };
