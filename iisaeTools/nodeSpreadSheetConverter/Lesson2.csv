@@ -1,0 +1,25 @@
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Persuade,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Inform,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Entertain,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Persuade,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Persuade,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Inform,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Entertain,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Entertain,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Entertain,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Inform,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Inform,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Inform,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Entertain,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Persuade,Inform,Persuade,Entertain
+Normal,"Does this book belong in the inform, entertain, or persuade cart?",Inform,Inform,Persuade,Entertain
+Normal,"I’m looking for lots of different books. First, I’m looking to take my GED next year. _user_ Can you help me choose a good book to study?",book2,book0,book1,book2
+Normal,"This request is actually for someone else. My sister is really into romance books. _user_, Do you see anything that she might enjoy",book1,book0,book1,book2
+Normal,So. I’m thinking about getting a job in the field of education. Is there a book you could recommend so I can learn more?,book2,book0,book1,book2
+Normal,All my friends are using facebook and I don’t even have a clue how to get on there. Is there a book that will teach me how to use Facebook?,book2,book0,book1,book2
+Normal,"My church recommends reading some books on the history of Christianity. _user_, Do you see a book that will teach me about that?",book0,book0,book1,book2
+Normal,I still need some help. I’m doing some home repairs for my mother. Can you find a book that will help me with the plumbing?,book2,book0,book1,book2
+Normal,"Oh, I almost forgot! I also want to cook for my mother when I visit her, but I don’t know how to cook. _user_, which book do you think would help me?",book0,book0,book1,book2
+Normal,"OK, let me think. I’m really concerned about world pollution and how it affects our health, do you see a book that will help me learn more about that?",book1,book0,book1,book2
+Normal,"I have heard that I should take better care of my mental health, do you have a book that describes how I can raise my self-esteem?",book2,book0,book1,book2
+Normal,"Finally, I need a book to read for fun. Recently, I got into reading science fiction stories._user_ Which one of these books should I read?""",book1,book0,book1,book2

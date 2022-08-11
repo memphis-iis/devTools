@@ -1,0 +1,10 @@
+Cristina: _user_, and Jordan, Welcome back. Today we will be learning new vocabulary.  
+Jordan: _user_, and Cristina, Hello. New vocabulary? How will we be learning that?   
+Cristina: Today we will be focusing on learning new vocabulary by using context clues. Context clues are hints in a text, which can help us understand the meanings of words we don't know.   
+Cristina: For this activity, you will be matching vocabulary words with the more common words that mean the same thing.  
+Cristina: First, you will read the sentence at the top. Pay attention to the word that is highlighted in yellow. That is the word you will be replacing and checking.   
+Cristina: Next, you can hover over the buttons on the bottom part of the screen to replace and check each answer. Try hovering over an option now to see what happens.   
+Cristina: When you want to pick an answer, just press one of the buttons to lock in your selection. It will turn yellow to show that you've selected it.   
+Cristina: Please note that the example below is incorrect.   
+Jordan: Alright, let's give it a shot.   
+Cristina: _user_, I will reset this first question and you can try it out.   

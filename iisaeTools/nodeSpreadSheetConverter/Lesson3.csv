@@ -1,0 +1,37 @@
+Diagnostic,Click the word below that has an affix.,vividly,vividly,disaster,mister,suffocate
+Diagnostic,Click the word below that has an affix.,reconverted,awful,beverage,reconverted,provide
+Diagnostic,Click the word below that is the root of the following example.,detectable,table,detect,tect,able
+Diagnostic,Click the word below that is the root of the following example.,unremarkable,unremark,remarkable,remark,mark
+Diagnostic,Click the word below that is the root of the following example.,disoriented,orient,disorient,orient,disorder
+Easy,Click the word below that has an affix.,forecast,middle,forecast,read,written
+Easy,Click the word below that has an affix.,enclose,enclose,armadillo,under,reach
+Easy,Click the word below that has an affix.,farming,none,exit,efficient,farming
+Easy,Click the word below that has an affix.,useless,extract,useless,adapt,obstacle
+Easy,Click the word below that has an affix.,tightest,prep,convert,intense,tightest
+Easy,Click the word below that is the root of the following example.,midfield,field,mid,middle,midfield
+Easy,Click the word below that is the root of the following example.,lied,ide,liar,lie,lied
+Easy,Click the word below that is the root of the following example.,sleepy,sleep,leap,peel,sleepy
+Easy,Click the word below that is the root of the following example.,narrowest,est,row,narrowest,narrow
+Easy,Click the word below that is the root of the following example.,talented,relent,play,talent,talented
+Hard,Click the word below that has an affix.,submerging,forest,submerging,persuade,imagine
+Hard,Click the word below that has an affix.,transport,interpret,transport,entree,none
+Hard,Click the word below that has an affix.,doer,delicious,best,doer,educate
+Hard,Click the word below that has an affix.,active,active,utility,foray,iterative
+Hard,Click the word below that has an affix.,fixable,refrigerate,ambitious,reap,fixable
+Hard,Click the word below that is the root of the following example.,underestimated,estimated,mate,under,estimate
+Hard,Click the word below that is the root of the following example.,wonderful,under,wonder,full,wonderful
+Hard,Click the word below that is the root of the following example.,dripped,drip,rip,ripped,dripped
+Hard,Click the word below that is the root of the following example.,merge,merge,merging,submerge,submerging
+Hard,Click the word below that is the root of the following example.,impressed,impress,pressed,press,imp
+Level 3,Ruth was asked by the teacher to write a report on transportation in the 19th century. She is <span id='exampleWord'>check<span class='affix'>____</span></span> some books out from the library.,checking,ful,ing,ity,able
+Level 3,Jamie likes to decorate rooms. She is <span id='exampleWord'>think<span class='affix'>____</span></span> about taking a design class.,thinking,ful,ing,ity,able
+Level 3,We took the cat to the vet last week. The doctor asked us to bring the cat back today so she can <span id='exampleWord'><span class='affix'>____</span>check</span> it.,recheck,un,inter,re,over
+Level 3,The beautiful descriptions found in these books have <span id='exampleWord'>help<span class='affix'>____</span></span> me to create pictures in my mind.,helped,er,ing,ly,ed
+Level 3,"To play the telephone game, the players have to form a <span id='exampleWord'><span class='affix'>____</span>circle</span>",semicircle,mid,semi,non,post
+Level 3,"Did you know the rings of Saturn are made up of tiny pieces of rock and ice? If the rings were solid, they would become <span id='exampleWord'><span class='affix'>____</span>stable</span> and break apart.",unstable,pre,up,semi,un
+Level 3,We are looking forward to seeing our new living room. We had it <span id='exampleWord'>wallpaper<span class='affix'>____</span></span> while we were gone for the weekend.,wallpapered,"ED: To tell the reader that the activity took place in the past,","ED: To tell the reader that the activity is not done,","S: To tell the reader that more than one person did the activity,",S: To tell the reader that there is more than one activity
+Level 3,"The most <span id='exampleWord'>power<span class='affix'>____</span></span> animal in the forest was the bear, and he was the first to reach the mountaintop. The bear stood on the peak out over the forest below.",powerful,"NESS: To tell the reader the animal has power,","NESS: To tell the reader the animal is not friendly,","FUL: To tell the reader the power is important,",FUL: To tell the reader the animal has a lot of power
+Level 3,The top of a violin's strings are wound around pegs. You tune the strings by <span id='exampleWord'>turn<span class='affix'>____</span></span> the pegs.,turning,"ING: To tell the reader how to do the activity,","ING: To tell the reader there is an action they need to take,","LY: To tell the reader what the strings looked like,",LY: To tell the reader about violin tuning
+Level 3,"Part of the <span id='exampleWord'><span class='affix'>____</span>way</span> is now the underpass, but the rest has not been changed very much and still has tram tracks inside it.",subway,"PRE: To tell the reader the way is located before the rest of the tracks,","PRE: To tell the reader the way was built before the rest of the tracks,","SUB: To tell the reader the way is under the ground,",SUB: To tell the reader something is wrong with the tracks
+Level 3,The family road trip took a week. The trip was a(n) <span id='exampleWord'><span class='affix'>____</span>state</span> adventure across the Southwest U.S.,interstate,"INTER: To tell the reader the travel took place across states,","INTER: To tell the reader the travel took place at different times,","MIS: To tell the reader the family went to the wrong states,",MIS: To tell the reader the family was wrong about their plans
+Level 3,Wombats are short and <span id='exampleWord'>muscul<span class='affix'>____</span></span> animals that walks on four strong legs and normally only have one baby.,muscular,"MUSCULITY - to indicate the condition of the wombats muscles,","MUSCULITY - to indicate a characteristic of the animal,","MUSCULAR: - to indicate general characteristics of animals,",MUSCULAR: - to indicate a specific characteristic of the wombat
