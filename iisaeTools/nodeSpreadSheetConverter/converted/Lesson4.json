@@ -57,7 +57,7 @@
           "autoTutorScript": [
             {
               "character": "Cristina",
-              "script": " _user_ riend ,and Jordan, welcome back.",
+              "script": " _user_ and Jordan, welcome back.",
               "role": "teacher"
             },
             {
@@ -153,11 +153,11 @@
       "header": "Easy",
       "questions": [
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Lied",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "lied",
+          "correctAnswer": "lie",
           "answers": [
             {
               "answer": "ide"
@@ -175,11 +175,11 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Sleepy",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "sleepy",
+          "correctAnswer": "sleep",
           "answers": [
             {
               "answer": "sleep"
@@ -197,11 +197,11 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Narrowest",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "narrowest",
+          "correctAnswer": "narrow",
           "answers": [
             {
               "answer": "est"
@@ -219,11 +219,11 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Talented",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "talented",
+          "correctAnswer": "talent",
           "answers": [
             {
               "answer": "relent"
@@ -360,11 +360,11 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Underestimated.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "underestimated",
+          "correctAnswer": "estimate",
           "answers": [
             {
               "answer": "estimated"
@@ -382,11 +382,11 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Wonderful",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "wonderful",
+          "correctAnswer": "wonder",
           "answers": [
             {
               "answer": "under"
@@ -404,11 +404,11 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: dripped",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "dripped",
+          "correctAnswer": "drip",
           "answers": [
             {
               "answer": "drip"
@@ -426,7 +426,7 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Merge",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
@@ -448,11 +448,11 @@
           "image": false
         },
         {
-          "prompt": "Click the word below that is the root of the following example.",
+          "prompt": "Click the word below that is the root of the following example: Impressed",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "impressed",
+          "correctAnswer": "press",
           "answers": [
             {
               "answer": "impress"
@@ -479,11 +479,11 @@
       "header": "Level 3",
       "questions": [
         {
-          "prompt": "Ruth was asked by the teacher to write a report on transportation in the 19th century. She is <span id='exampleWord'>check<span class='affix'>____</span></span> some books out from the library.",
+          "prompt": "Ruth was asked by the teacher to write a report on transportation in the 19th century. She is check____ some books out from the library.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "checking",
+          "correctAnswer": "ing",
           "answers": [
             {
               "answer": "ful"
@@ -501,11 +501,11 @@
           "image": false
         },
         {
-          "prompt": "Jamie likes to decorate rooms. She is <span id='exampleWord'>think<span class='affix'>____</span></span> about taking a design class.",
+          "prompt": "Jamie likes to decorate rooms. She is think____ about taking a design class.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "thinking",
+          "correctAnswer": "ing",
           "answers": [
             {
               "answer": "ful"
@@ -523,11 +523,11 @@
           "image": false
         },
         {
-          "prompt": "We took the cat to the vet last week. The doctor asked us to bring the cat back today so she can <span id='exampleWord'><span class='affix'>____</span>check</span> it.",
+          "prompt": "We took the cat to the vet last week. The doctor asked us to bring the cat back today so she can ____check it.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "recheck",
+          "correctAnswer": "re",
           "answers": [
             {
               "answer": "un"
@@ -545,11 +545,11 @@
           "image": false
         },
         {
-          "prompt": "The beautiful descriptions found in these books have <span id='exampleWord'>help<span class='affix'>____</span></span> me to create pictures in my mind.",
+          "prompt": "The beautiful descriptions found in these books have help____ me to create pictures in my mind.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "helped",
+          "correctAnswer": "ed",
           "answers": [
             {
               "answer": "er"
@@ -567,11 +567,11 @@
           "image": false
         },
         {
-          "prompt": "\"To play the telephone game, the players have to form a <span id='exampleWord'><span class='affix'>____</span>circle</span>\"",
+          "prompt": "To play the telephone game, the players have to form a ____circle.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "semicircle",
+          "correctAnswer": "semi",
           "answers": [
             {
               "answer": "mid"
@@ -589,11 +589,11 @@
           "image": false
         },
         {
-          "prompt": "\"Did you know the rings of Saturn are made up of tiny pieces of rock and ice? If the rings were solid, they would become <span id='exampleWord'><span class='affix'>____</span>stable</span> and break apart.\"",
+          "prompt": "Did you know the rings of Saturn are made up of tiny pieces of rock and ice? If the rings were solid, they would become ____stable and break apart.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "unstable",
+          "correctAnswer": "un",
           "answers": [
             {
               "answer": "pre"
@@ -611,20 +611,20 @@
           "image": false
         },
         {
-          "prompt": "We are looking forward to seeing our new living room. We had it <span id='exampleWord'>wallpaper<span class='affix'>____</span></span> while we were gone for the weekend.",
+          "prompt": "We are looking forward to seeing our new living room. We had it wallpaper____ while we were gone for the weekend.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "wallpapered",
+          "correctAnswer": "ED: To tell the reader that the activity took place in the past",
           "answers": [
             {
-              "answer": "\"ED: To tell the reader that the activity took place in the past,\""
+              "answer": "ED: To tell the reader that the activity took place in the past"
             },
             {
-              "answer": "\"ED: To tell the reader that the activity is not done,\""
+              "answer": "ED: To tell the reader that the activity is not done"
             },
             {
-              "answer": "\"S: To tell the reader that more than one person did the activity,\""
+              "answer": "S: To tell the reader that more than one person did the activity"
             },
             {
               "answer": "S: To tell the reader that there is more than one activity"
@@ -633,20 +633,20 @@
           "image": false
         },
         {
-          "prompt": "\"The most <span id='exampleWord'>power<span class='affix'>____</span></span> animal in the forest was the bear, and he was the first to reach the mountaintop. The bear stood on the peak out over the forest below.\"",
+          "prompt": "The most power____ animal in the forest was the bear, and he was the first to reach the mountaintop. The bear stood on the peak out over the forest below.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "powerful",
+          "correctAnswer": "FUL: To tell the reader the animal has a lot of power",
           "answers": [
             {
-              "answer": "\"NESS: To tell the reader the animal has power,\""
+              "answer": "NESS: To tell the reader the animal has power"
             },
             {
-              "answer": "\"NESS: To tell the reader the animal is not friendly,\""
+              "answer": "NESS: To tell the reader the animal is not friendly"
             },
             {
-              "answer": "\"FUL: To tell the reader the power is important,\""
+              "answer": "FUL: To tell the reader the power is important"
             },
             {
               "answer": "FUL: To tell the reader the animal has a lot of power"
@@ -655,20 +655,20 @@
           "image": false
         },
         {
-          "prompt": "The top of a violin's strings are wound around pegs. You tune the strings by <span id='exampleWord'>turn<span class='affix'>____</span></span> the pegs.",
+          "prompt": "The top of a violin's strings are wound around pegs. You tune the strings by turn____ the pegs.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "turning",
+          "correctAnswer": "ING: To tell the reader there is an action they need to take",
           "answers": [
             {
-              "answer": "\"ING: To tell the reader how to do the activity,\""
+              "answer": "ING: To tell the reader how to do the activity"
             },
             {
-              "answer": "\"ING: To tell the reader there is an action they need to take,\""
+              "answer": "ING: To tell the reader there is an action they need to take"
             },
             {
-              "answer": "\"LY: To tell the reader what the strings looked like,\""
+              "answer": "LY: To tell the reader what the strings looked like"
             },
             {
               "answer": "LY: To tell the reader about violin tuning"
@@ -677,20 +677,20 @@
           "image": false
         },
         {
-          "prompt": "\"Part of the <span id='exampleWord'><span class='affix'>____</span>way</span> is now the underpass, but the rest has not been changed very much and still has tram tracks inside it.\"",
+          "prompt": "Part of the ____way is now the underpass, but the rest has not been changed very much and still has tram tracks inside it",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "subway",
+          "correctAnswer": "SUB: To tell the reader the way is under the ground",
           "answers": [
             {
-              "answer": "\"PRE: To tell the reader the way is located before the rest of the tracks,\""
+              "answer": "PRE: To tell the reader the way is located before the rest of the tracks"
             },
             {
-              "answer": "\"PRE: To tell the reader the way was built before the rest of the tracks,\""
+              "answer": "PRE: To tell the reader the way was built before the rest of the tracks"
             },
             {
-              "answer": "\"SUB: To tell the reader the way is under the ground,\""
+              "answer": "SUB: To tell the reader the way is under the ground"
             },
             {
               "answer": "SUB: To tell the reader something is wrong with the tracks"
@@ -699,20 +699,20 @@
           "image": false
         },
         {
-          "prompt": "The family road trip took a week. The trip was a(n) <span id='exampleWord'><span class='affix'>____</span>state</span> adventure across the Southwest U.S.",
+          "prompt": "The family road trip took a week. The trip was a(n) ____state adventure across the Southwest U.S.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "interstate",
+          "correctAnswer": "INTER: To tell the reader the travel took place across states",
           "answers": [
             {
-              "answer": "\"INTER: To tell the reader the travel took place across states,\""
+              "answer": "INTER: To tell the reader the travel took place across states"
             },
             {
-              "answer": "\"INTER: To tell the reader the travel took place at different times,\""
+              "answer": "INTER: To tell the reader the travel took place at different times"
             },
             {
-              "answer": "\"MIS: To tell the reader the family went to the wrong states,\""
+              "answer": "MIS: To tell the reader the family went to the wrong states"
             },
             {
               "answer": "MIS: To tell the reader the family was wrong about their plans"
@@ -721,20 +721,20 @@
           "image": false
         },
         {
-          "prompt": "Wombats are short and <span id='exampleWord'>muscul<span class='affix'>____</span></span> animals that walks on four strong legs and normally only have one baby.",
+          "prompt": "Wombats are short and muscul____ animals that walks on four strong legs and normally only have one baby.",
           "type": "multiChoice",
           "value": 0,
           "feedback": "",
-          "correctAnswer": "muscular",
+          "correctAnswer": "MUSCULAR: - to indicate a specific characteristic of the wombat",
           "answers": [
             {
-              "answer": "\"MUSCULITY - to indicate the condition of the wombats muscles,\""
+              "answer": "MUSCULITY - to indicate the condition of the wombats muscles"
             },
             {
-              "answer": "\"MUSCULITY - to indicate a characteristic of the animal,\""
+              "answer": "MUSCULITY - to indicate a characteristic of the animal"
             },
             {
-              "answer": "\"MUSCULAR: - to indicate general characteristics of animals,\""
+              "answer": "MUSCULAR: - to indicate general characteristics of animals"
             },
             {
               "answer": "MUSCULAR: - to indicate a specific characteristic of the wombat"
@@ -764,5 +764,27 @@
       "nextFlow": [],
       "subheader": "subheader"
     }
-  ]
+  ],
+  "simpleFeedbackBag" : {
+    "correct" : [ 
+        "{{speakingTo}}, you got the question right!", 
+        "{{speakingTo}}, you answered right! Thanks for helping me so much!", 
+        "{{speakingTo}}, you answered correctly.", 
+        "{{speakingTo}}, I agree with your answer.", 
+        "{{speakingTo}}, you answered correctly.", 
+        "{{speakingTo}}, you answered the question correctly.", 
+        "{{speakingTo}}, great answer!", 
+        "{{speakingTo}},  you picked the right answer!"
+    ],
+    "incorrect" : [ 
+        "{{speakingTo}}, I don't think that's the right answer.", 
+        "{{speakingTo}}, I don't think that was the right answer.", 
+        "{{speakingTo}}, try again. I don't think that was the right answer.", 
+        "{{speakingTo}}, I don't think that was right!", 
+        "{{speakingTo}}, sorry! that wasn't the right answer.", 
+        "{{speakingTo}},  your answer choice was not correct.", 
+        "{{speakingTo}}, looks like you picked the wrong answer", 
+        "{{speakingTo}}, your answer was not correct."
+    ]
+  }
 }
