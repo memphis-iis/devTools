@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "3TimMgyvcFsLE7MPo37e+3uViZbUqwYFgwQdUiIyOYot1r9i8YzXBZdVJM5rzDStBSXCeLy13BgSjpqLdIASWw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rusty\\OneDrive\\Desktop\\Local Workspace\\devTools\\devTools\\desktopCSVCombiner\\desktopCSVCombiner.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rusty\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\7.0.5\\microsoft.netcore.app.runtime.linux-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\rusty\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\7.0.5\\microsoft.aspnetcore.app.runtime.linux-x64.7.0.5.nupkg.sha512",
+    "C:\\Users\\rusty\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\7.0.5\\microsoft.netcore.app.host.linux-x64.7.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

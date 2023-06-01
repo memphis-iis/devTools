@@ -1,0 +1,5 @@
+C:\Users\rusty\OneDrive\Desktop\Local Workspace\devTools\devTools\desktopCSVCombiner\bin\Debug\net7.0\publish\desktopCSVCombiner.exe
+C:\Users\rusty\OneDrive\Desktop\Local Workspace\devTools\devTools\desktopCSVCombiner\bin\Debug\net7.0\publish\desktopCSVCombiner.dll
+C:\Users\rusty\OneDrive\Desktop\Local Workspace\devTools\devTools\desktopCSVCombiner\bin\Debug\net7.0\publish\desktopCSVCombiner.deps.json
+C:\Users\rusty\OneDrive\Desktop\Local Workspace\devTools\devTools\desktopCSVCombiner\bin\Debug\net7.0\publish\desktopCSVCombiner.runtimeconfig.json
+C:\Users\rusty\OneDrive\Desktop\Local Workspace\devTools\devTools\desktopCSVCombiner\bin\Debug\net7.0\publish\desktopCSVCombiner.pdb
