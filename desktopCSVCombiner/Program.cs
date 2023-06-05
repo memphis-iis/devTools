@@ -1,41 +1,40 @@
 ﻿using System;
-using static CSVCombiner;
+using CSVCombiner;
 
-//write out welcome message
-Console.WriteLine("Welcome to CSV Combiner!");
+//desktop csv combiner
+Console.WriteLine("Desktop CSV Combiner");
 
-//read all files in the working directory, and store them in an array
-string[] files = System.IO.Directory.GetFiles(System.IO.Directory.GetCurrentDirectory());
+//set input path to ./input
+string inputPath = "./input";
 
-//create a new instance of CSVCombiner
-CSVCombiner csvCombiner = new CSVCombiner();
+//set output path to ./output
+string outputPath = "./output";
 
-//for each file in the files array, add the contents of the file to the combined csv
-if(files.Length > 0){
-    Console.WriteLine("Files found:" + files.Length);
-    foreach(string file in files){
-        //check if csv
-        if(file.Substring(file.Length - 4) == ".csv"){
-            //read the file
-            string[] csv = csvCombiner.ReadCSV(file);
-            //add a blank row at the 1st index
-            csv[0] = csv[0] + "," + "";
-            //add a row at 1nd index with the file name without the path
-            csv[1] = "file," + file.Substring(file.LastIndexOf("\\") + 1);
-            //add the csv to the combined csv
-            csvCombiner.AddToCombinedCSV(csv);
-        } else {
-            Console.WriteLine("File " + file + " is not a csv");
-        }
-    }
-} else{
-    Console.WriteLine("No files found");
-}
+//create 2d array to store csv data
+string[,] csv = new string[0, 0];
 
-//write the combined csv to the file
-try{
-    csvCombiner.WriteCSV("combined.csv");
-}
-catch(Exception e){
-    Console.WriteLine("Error writing to file: " + e.Message);
+//create csv combiner object
+CSVCombine csvCombiner = new CSVCombine();
+
+string[,] header = null;
+
+string[,] combinedCSV = null;
+
+
+//get input files
+string[] inputPaths = System.IO.Directory.GetFiles(inputPath);
+
+//loop through input files
+for(int i = 0; i < inputPaths.Length; i++){
+    //get path
+    string path = inputPaths[i];
+    Console.WriteLine("Processing CSV file number " + i + "of" + inputPaths.Length);
+    //read csv file
+    Console.WriteLine("Reading CSV file: " + path);
+    csv = csvCombiner.readCSV(path);
+    //combine csv
+    Console.WriteLine("Combining CSV file: " + path);
+    //get the filename from the path
+    string fileName = path.Split('/')[2];
+    csvCombiner.appendToCSV(csv, fileName);
 }
